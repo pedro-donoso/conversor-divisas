@@ -1,19 +1,23 @@
-# Ruby on Replit
+# https://replit.com/@odikil/metodos
 
-This is a template to get you started with Ruby on Replit. It's ready to go so you can just hit run and start coding!
+![Divisas](https://github.com/pedro-donoso/conversor-divisas/assets/68760595/69d0b4c1-ec6b-4563-857c-479d56a9213f)
 
-## Running the repl
+1- Correr archivo main.rb
 
-Simply hit run! You can edit the run command from the `.replit` file.
+```RUN```
 
-## Installing packages
+2- Ingresa la cantidad de dólares a convertir
 
-To add packages to your repl, we recommend using the Replit packager interface in the left sidebar or using `bundle install` in the shell. Check out the [Bundle docs here](https://bundler.io/guides/getting_started.html).
+3- Ingresa la divisa:
 
-**Warning: Avoid using `gem install` to add packages.**
+```chile```
+```mexico```
+```colombia```
 
-Beacuse Ruby repls use [Bundle](https://bundler.io/) under the hood to provide a consistent environment that tracks and installs the exact gems and versions needed, we recommend using `bundle install` instead of `gem install`, which may not work as expected.
+4- El script entregará como resultado la conversión que es igual a la cantidad de dolares ingresados multiplicados por el cambio del país ingresado
 
-## Help
+ cambios segun país y a julio 2023:
 
-If you need help you might be able to find an answer on our [docs](https://docs.replit.com) page. Feel free to report bugs and give us feedback [here](https://replit.com/support).
+    chile = 796.40
+    mexico = 17.40
+    colombia = 4249.00
